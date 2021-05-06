@@ -10,4 +10,4 @@ This is a pretty basic NLP + Classification method. Basic text cleanning -> Tfid
   
  ## Worth noting
   I would be a bad data science student if I don't mention that there are some obvious better ways to push this into 90% territory (I already made my submission, so I'm keeping my project as is). For one, setting a minimum threshold on Tfidf (ie. 2 words) cleans out a lot of noise and would certianly improve accuracy. Furthermore -I'd be willing to bet that Nearal Network techniques such as an RNN are far more capable at sentiment detection than this program.
-  THe big problem with sentiment analysis with Tfidf+Logistic Regression is that it does not consider the sequence of words. A phrase like "not very good" is interpreted as "good" rather than "bad". This is one of the strengths of RNN, which will pick up on negation effectively.
+  The big problem with sentiment analysis with Tfidf+Logistic Regression is that it does not consider the sequence of words. A phrase like "not very good" is interpreted as "good" rather than "bad". This is one of the strengths of RNN, which will pick up on negation effectively.
