@@ -1,5 +1,5 @@
 # Bag-of-Words-Meets-Bag-of-Popcorn-0.871-Accuracy-
-This is a pretty basic NLP + Classification method. Basic text cleanning -> TfidfVectorizer -> MaxAbsScaler -> Logistic Regression model.
+This is a pretty basic NLP + Classification method. Basic text cleaning -> TfidfVectorizer -> MaxAbsScaler -> Logistic Regression model.
 
 ## Introduction
   For fun, I decided to attemp this classic Kaggle challenge (found here: https://www.kaggle.com/c/word2vec-nlp-tutorial). I included notes in the code file, which are a more inclusive walkthrough than what I will provide here.
